@@ -1,0 +1,20 @@
+{
+  "name": "Github Navigation",
+  "description": "Change color to old github navigation bar",
+  "author": "Rizky Ariestiyansyah",  
+  "version": "1.0",
+  "icons": {
+  "48": "github.png"
+  },
+  "manifest_version": 2,
+  "permissions": [
+  "tabs",
+  "background"
+  ],
+  "content_scripts": [
+      {
+      "matches": ["*://*.github.com/*"],
+      "js": ["github.js"]
+      }
+  ]
+}
