@@ -1,2 +1,2 @@
 # Github Navigation
-Turn back old navigation on chrome
+Turn back old navigation on github
