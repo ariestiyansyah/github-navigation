@@ -8,8 +8,8 @@
   },
   "manifest_version": 2,
   "permissions": [
-  "tabs",
-  "background"
+    "tabs",
+    "background"
   ],
   "content_scripts": [
       {
